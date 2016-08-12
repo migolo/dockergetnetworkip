@@ -8,5 +8,5 @@ Gets Docker container's IP based on a network name.
 
 You should include the Docker Socket on the Container
 ```
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock ubuntu ./dockergetnetworkip bridge
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock ubuntu ./dockergetnetworkip bridge
 ```
