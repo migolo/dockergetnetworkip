@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"regexp"
 
-	"github.com/docker/engine-api/client"
+	"github.com/docker/docker/client"
 	"golang.org/x/net/context"
 )
 
